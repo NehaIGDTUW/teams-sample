@@ -3,7 +3,7 @@ const app = express()
 const server = require('http').Server(app)
 const io = require('socket.io')(server)
 // Import the peer library that we installed.
-const { ExpressPeerServer } = require('peer');
+const { ExpressPeerServer } = require('peer')
 // Use Express Peer Server
 const peerServer = ExpressPeerServer(server, {
     debug: true

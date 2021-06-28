@@ -6,7 +6,7 @@ myVideo.muted = true;
 
 // create new peer connection
 // undefined is specifying that we don't need a specific id as of now.
-var peer = new Peer(undefined, {
+const peer = new Peer(undefined, {
     host: "peerjs-server.herokuapp.com",
     secure: true,
     port: '443'
